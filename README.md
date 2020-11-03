@@ -6,7 +6,7 @@ https://www.piborg.org/blog/yetiborg-v2-examples-web-ui
 
 There were minor issues to be addressed in the original source code and the power comsumption;
 
-<The reverse issue>
+#The reverse issue
 When you click on Reverse, the wheels don't reverse.
 The problems what I found were mainly coding of yeti2Web.py:
 
@@ -27,7 +27,7 @@ The problems what I found were mainly coding of yeti2Web.py:
             httpText += '<button onclick=""Drive(-1,-1)"" style=""width:200px;height:100px;""><b>Reverse</b></button>\n'
             httpText += '<button onclick=""Drive(1,0)"" style=""width:200px;height:100px;""><b>Turn Right</b></button>\n'"
             
-<The issue with the battery insufficiency>
+#The issue with the battery insufficiency
 Connecting the ZeroBorg to a 9V battery will only provide < 15 mins of flight so I am seeking another options. I see some alternative options:
 
 Use a 7.4V Li-Po power pack to power everything via the ZeroBorg
